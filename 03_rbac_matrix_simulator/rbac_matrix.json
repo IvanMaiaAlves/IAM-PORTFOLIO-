@@ -1,0 +1,21 @@
+{
+    "roles": {
+      "admin": {
+        "description": "Full access to all system resources and security configurations.",
+        "permissions": ["read", "write", "delete", "manage_users", "view_logs"]
+      },
+      "manager": {
+        "description": "Can view and modify team resources, but cannot change global security settings.",
+        "permissions": ["read", "write", "view_logs"]
+      },
+      "analyst": {
+        "description": "Standard operational access. Can read and update daily tasks.",
+        "permissions": ["read", "write"]
+      },
+      "auditor": {
+        "description": "Read-only access to compliance and logs for audit purposes.",
+        "permissions": ["read", "view_logs"]
+      }
+    },
+    "resources": ["financial_records", "user_database", "system_logs", "source_code"]
+  }
