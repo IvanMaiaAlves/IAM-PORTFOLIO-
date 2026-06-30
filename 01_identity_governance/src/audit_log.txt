@@ -1,0 +1,62 @@
+[2026-06-25 02:31:18] ==================================================
+[2026-06-25 02:31:18]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:31:18] ==================================================
+[2026-06-25 02:31:18] 🚨 [ERROR] Failed to load HR data (rh_teste.csv): [Errno 2] No such file or directory: 'rh_teste.csv'
+[2026-06-25 02:32:08] ==================================================
+[2026-06-25 02:32:08]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:32:08] ==================================================
+[2026-06-25 02:32:08] [INFO] HR data loaded successfully.
+[2026-06-25 02:32:08] [INFO] Cloud data loaded successfully.
+[2026-06-25 02:32:08] 🚨 [CRITICAL ALERT] 1 GHOST ACCOUNTS DETECTED!
+[2026-06-25 02:32:08] ✅ 'ghost_accounts_report.xlsx' generated with data.
+[2026-06-25 02:32:08] [INFO] Analyzing access key age compliance (Limit: 90 days)...
+[2026-06-25 02:32:08] ⚠️ [VULNERABILITY] User ana@empresa.com is using a stale key (166 days old)!
+[2026-06-25 02:32:08] ⚠️ [VULNERABILITY] User carlos@empresa.com is using a stale key (130 days old)!
+[2026-06-25 02:32:08] 🚨 [ALERT] 2 stale keys saved to 'stale_keys_report.xlsx'.
+[2026-06-25 02:32:08] [INFO] Checking for Segregation of Duties (SoD) conflicts...
+[2026-06-25 02:32:08] 🚨 [SoD VIOLATION] User carlos@empresa.com has conflicting privileges: Admin,Auditor!
+[2026-06-25 02:32:08] 🚨 [ALERT] 1 SoD violations saved to 'sod_violations_report.xlsx'.
+[2026-06-25 02:32:08] ================ AUDIT PROCESS FINISHED ================
+[2026-06-25 02:34:33] ==================================================
+[2026-06-25 02:34:33]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:34:33] ==================================================
+[2026-06-25 02:34:33] 🚨 [ERROR] Failed to load HR data (rh_teste.csv): [Errno 2] No such file or directory: 'rh_teste.csv'
+[2026-06-25 02:36:21] ==================================================
+[2026-06-25 02:36:21]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:36:21] ==================================================
+[2026-06-25 02:36:21] 🚨 [ERROR] Failed to load HR data (hr_data.csv): [Errno 2] No such file or directory: 'hr_data.csv'
+[2026-06-25 02:37:21] ==================================================
+[2026-06-25 02:37:21]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:37:21] ==================================================
+[2026-06-25 02:37:21] [INFO] HR data loaded successfully.
+[2026-06-25 02:37:21] 🚨 [ERROR] Failed to load Cloud data (cloud_data.json): File cloud_data.json does not exist
+[2026-06-25 02:37:56] ==================================================
+[2026-06-25 02:37:56]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:37:56] ==================================================
+[2026-06-25 02:37:56] [INFO] HR data loaded successfully.
+[2026-06-25 02:37:56] [INFO] Cloud data loaded successfully.
+[2026-06-25 02:37:56] 🚨 [CRITICAL ALERT] 1 GHOST ACCOUNTS DETECTED!
+[2026-06-25 02:37:56] ✅ 'ghost_accounts_report.xlsx' generated with data.
+[2026-06-25 02:37:56] [INFO] Analyzing access key age compliance (Limit: 90 days)...
+[2026-06-25 02:37:56] ⚠️ [VULNERABILITY] User ana@empresa.com is using a stale key (166 days old)!
+[2026-06-25 02:37:56] ⚠️ [VULNERABILITY] User carlos@empresa.com is using a stale key (130 days old)!
+[2026-06-25 02:37:56] 🚨 [ALERT] 2 stale keys saved to 'stale_keys_report.xlsx'.
+[2026-06-25 02:37:56] [INFO] Checking for Segregation of Duties (SoD) conflicts...
+[2026-06-25 02:37:56] 🚨 [SoD VIOLATION] User carlos@empresa.com has conflicting privileges: Admin,Auditor!
+[2026-06-25 02:37:56] 🚨 [ALERT] 1 SoD violations saved to 'sod_violations_report.xlsx'.
+[2026-06-25 02:37:56] ================ AUDIT PROCESS FINISHED ================
+[2026-06-25 02:43:47] ==================================================
+[2026-06-25 02:43:47]        STARTING IDENTITY AUDIT (IGA)       
+[2026-06-25 02:43:47] ==================================================
+[2026-06-25 02:43:47] [INFO] HR data loaded successfully.
+[2026-06-25 02:43:47] [INFO] Cloud data loaded successfully.
+[2026-06-25 02:43:47] 🚨 [CRITICAL ALERT] 1 GHOST ACCOUNTS DETECTED!
+[2026-06-25 02:43:47] ✅ 'ghost_accounts_report.xlsx' generated with data.
+[2026-06-25 02:43:47] [INFO] Analyzing access key age compliance (Limit: 90 days)...
+[2026-06-25 02:43:47] ⚠️ [VULNERABILITY] User ana@empresa.com is using a stale key (166 days old)!
+[2026-06-25 02:43:47] ⚠️ [VULNERABILITY] User carlos@empresa.com is using a stale key (130 days old)!
+[2026-06-25 02:43:47] 🚨 [ALERT] 2 stale keys saved to 'stale_keys_report.xlsx'.
+[2026-06-25 02:43:47] [INFO] Checking for Segregation of Duties (SoD) conflicts...
+[2026-06-25 02:43:47] 🚨 [SoD VIOLATION] User carlos@empresa.com has conflicting privileges: Admin,Auditor!
+[2026-06-25 02:43:47] 🚨 [ALERT] 1 SoD violations saved to 'sod_violations_report.xlsx'.
+[2026-06-25 02:43:47] ================ AUDIT PROCESS FINISHED ================

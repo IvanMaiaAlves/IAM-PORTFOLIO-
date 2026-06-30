@@ -1,0 +1,20 @@
+[2026-06-30 17:31:14] ==================================================
+[2026-06-30 17:31:14]      STARTING AUTHENTICATION LOG MONITOR     
+[2026-06-30 17:31:14] ==================================================
+[2026-06-30 17:31:14] [INFO] Analyzing 'server_logs.txt' for brute force signatures...
+[2026-06-30 17:31:14] 🚨 [CRITICAL ALERT] Brute Force Detected from IP: 203.0.113.50!
+[2026-06-30 17:31:14] ⚠️ [ACTION REQUIRED] Add IP 203.0.113.50 to the Firewall drop rules.
+[2026-06-30 17:31:14] 🚨 [CRITICAL ALERT] Brute Force Detected from IP: 45.230.12.88!
+[2026-06-30 17:31:14] ⚠️ [ACTION REQUIRED] Add IP 45.230.12.88 to the Firewall drop rules.
+[2026-06-30 17:31:14] ✅ 'blocked_ips_report.txt' generated with 2 offender(s).
+[2026-06-30 17:31:14] ================ MONITORING PROCESS FINISHED ================
+[2026-06-30 17:35:44] ==================================================
+[2026-06-30 17:35:44]      STARTING AUTHENTICATION LOG MONITOR     
+[2026-06-30 17:35:44] ==================================================
+[2026-06-30 17:35:44] [INFO] Analyzing 'server_logs.txt' for brute force signatures...
+[2026-06-30 17:35:44] 🚨 [CRITICAL ALERT] Brute Force Detected from IP: 203.0.113.50!
+[2026-06-30 17:35:44] ⚠️ [ACTION REQUIRED] Add IP 203.0.113.50 to the Firewall drop rules.
+[2026-06-30 17:35:44] 🚨 [CRITICAL ALERT] Brute Force Detected from IP: 45.230.12.88!
+[2026-06-30 17:35:44] ⚠️ [ACTION REQUIRED] Add IP 45.230.12.88 to the Firewall drop rules.
+[2026-06-30 17:35:44] ✅ 'blocked_ips_report.txt' generated with 2 offender(s).
+[2026-06-30 17:35:44] ================ MONITORING PROCESS FINISHED ================
